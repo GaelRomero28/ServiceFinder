@@ -158,7 +158,7 @@ function App() {
         </ModalBody>
         <ModalFooter>
           <button className='btn btn-primary' onClick={()=>peticionPost()}>Insertar</button>{"  "}
-          <button className='btn btn-danger' onClick={()=>abrirCerrarModalInsertar}>Cancelar</button>{"  "}
+          <button className='btn btn-danger' onClick={()=>abrirCerrarModalInsertar()}>Cancelar</button>{"  "}
         </ModalFooter>
       </Modal>
 
